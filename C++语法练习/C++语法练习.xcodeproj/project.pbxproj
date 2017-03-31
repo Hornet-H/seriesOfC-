@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870F67981E8D6952009CC44F /* MaxOrMin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 870F67961E8D6952009CC44F /* MaxOrMin.cpp */; };
 		87BE883E1E8D5D8E004077CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87BE883D1E8D5D8E004077CB /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		870F67961E8D6952009CC44F /* MaxOrMin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxOrMin.cpp; sourceTree = "<group>"; };
+		870F67971E8D6952009CC44F /* MaxOrMin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MaxOrMin.hpp; sourceTree = "<group>"; };
 		87BE883A1E8D5D8E004077CB /* C++语法练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++语法练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BE883D1E8D5D8E004077CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				87BE883D1E8D5D8E004077CB /* main.cpp */,
+				870F67961E8D6952009CC44F /* MaxOrMin.cpp */,
+				870F67971E8D6952009CC44F /* MaxOrMin.hpp */,
 			);
 			path = "C++语法练习";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870F67981E8D6952009CC44F /* MaxOrMin.cpp in Sources */,
 				87BE883E1E8D5D8E004077CB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +252,7 @@
 				87BE88431E8D5D8E004077CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

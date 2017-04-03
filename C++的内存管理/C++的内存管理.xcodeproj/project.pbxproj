@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		870F685F1E921EBE009CC44F /* C++的内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++的内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
 		870F68621E921EBE009CC44F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		870F68691E921FF3009CC44F /* 内存管理的本质.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "内存管理的本质.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				870F68621E921EBE009CC44F /* main.cpp */,
+				870F68691E921FF3009CC44F /* 内存管理的本质.h */,
 			);
 			path = "C++的内存管理";
 			sourceTree = "<group>";

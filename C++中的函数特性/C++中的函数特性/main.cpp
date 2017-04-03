@@ -10,9 +10,19 @@
 #include <stdlib.h>
 using namespace std;
 
-
+//声明
+void funcTionOfDefaultValue(int x = 10,int y = 20,int z = 30);
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    funcTionOfDefaultValue();
+    funcTionOfDefaultValue(100);
+    funcTionOfDefaultValue(150,200);
+    funcTionOfDefaultValue(300,400,500);
+    
     return 0;
+}
+
+
+void funcTionOfDefaultValue(int i,int j,int k){
+
+    cout << i << "," << j << "," << k << endl ;
 }

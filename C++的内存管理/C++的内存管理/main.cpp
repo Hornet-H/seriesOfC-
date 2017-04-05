@@ -54,7 +54,6 @@ void funcTionC(){
     if (NULL == p) {
     //处理相关的逻辑
         
-        
     }
     p[0] = 100;
     p[1] = 1000;

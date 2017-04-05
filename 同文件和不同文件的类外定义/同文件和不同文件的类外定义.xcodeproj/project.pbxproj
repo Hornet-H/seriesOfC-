@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		870F689D1E95040B009CC44F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 870F689C1E95040B009CC44F /* main.cpp */; };
+		870F68A51E9530F5009CC44F /* HFTeacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 870F68A31E9530F4009CC44F /* HFTeacher.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		870F68991E95040B009CC44F /* 同文件和不同文件的类外定义 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "同文件和不同文件的类外定义"; sourceTree = BUILT_PRODUCTS_DIR; };
 		870F689C1E95040B009CC44F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		870F68A31E9530F4009CC44F /* HFTeacher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HFTeacher.cpp; sourceTree = "<group>"; };
+		870F68A41E9530F5009CC44F /* HFTeacher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HFTeacher.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				870F689C1E95040B009CC44F /* main.cpp */,
+				870F68A31E9530F4009CC44F /* HFTeacher.cpp */,
+				870F68A41E9530F5009CC44F /* HFTeacher.hpp */,
 			);
 			path = "同文件和不同文件的类外定义";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870F68A51E9530F5009CC44F /* HFTeacher.cpp in Sources */,
 				870F689D1E95040B009CC44F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

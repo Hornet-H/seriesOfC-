@@ -20,7 +20,7 @@ class HFteacher{
 public:
     HFteacher(string name = "jim",int age = 11,int m = 100);
     //拷贝构造函数
-    HFteacher(HFteacher const &tea,int m);
+    HFteacher(const HFteacher  &tea,int m);
     void setName(string name);
     string getName();
     void setAge(int age);

@@ -15,7 +15,7 @@ HFteacher::HFteacher(string strName,int age,int m):m_strName(strName),m_iAge(age
 
 }
 
-HFteacher:: HFteacher(HFteacher const &tea,int m):m_iMax(m)
+HFteacher:: HFteacher(const HFteacher  &tea,int m):m_iMax(m)
 {
     cout << "HFteacher(HFteacher const &tea,int m)" << endl;
 

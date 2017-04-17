@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     
     HFteacher teacher1 = HFteacher("huanglaifeng",26,190);
     HFteacher teacher2 ;
-    HFteacher teacher3 = teacher2;
+    HFteacher teacher3 = teacher1;
     HFteacher teacher4 = HFteacher(teacher2, 10);
 //    cout << teacher1.getName() << " " <<teacher1.getAge() << " " << teacher1.getMax() << endl;
     return 0;

@@ -18,8 +18,9 @@ using namespace std;
 class HFteacher{
     
 public:
+    //使用初始化列表给常量赋值---只能使用这种方式复制
     HFteacher(string name = "jim",int age = 11,int m = 100);
-    //拷贝构造函数
+    //拷贝构造函数的使用
     HFteacher(const HFteacher  &tea,int m);
     void setName(string name);
     string getName();
